@@ -1,0 +1,36 @@
+.login {
+  display: flex;
+  background-color: #6f7e8c;
+  width: 15%;
+  height: 30%;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+.login_container {
+  grid-area: content;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.alert {
+  margin: 10px;
+}
+
+@media screen and (min-width: 3839px) {
+  .login {
+    width: 15%;
+    height: 12%;
+  }
+}
+
+@media screen and (min-width: 2559px) {
+  .login {
+    width: 15%;
+    height: 15%;
+  }
+}

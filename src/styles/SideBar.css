@@ -1,0 +1,9 @@
+.sidebar {
+  grid-area: sidebar;
+  width: 100vw;
+}
+.user {
+  font-size: 20px;
+
+  font-weight: 700;
+}

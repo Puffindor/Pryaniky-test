@@ -1,0 +1,42 @@
+.popup-out {
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.513);
+  align-items: center;
+}
+
+.inputs {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.popup-in {
+  display: flex;
+  width: 30vw;
+  height: 70vh;
+  background-color: #6f7e8c;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.close {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1401px) {
+  .popup-in {
+    width: 30vw;
+    height: 80vh;
+  }
+}
